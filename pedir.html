@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+    <script
+      src="https://kit.fontawesome.com/9a357e20ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <section class="productos" id="productos">
+      <div class="contenedor-productos">
+        <h2>Productos</h2>
+        <div class="cards">
+          <div class="contenedor-cards">
+            <div class="product">
+              <div class="card__face card__face--front">
+                <img src="./build/img/cuaderno.webp" alt="" />
+                <h3>Cuaderno</h3>
+              </div>
+              <div
+                class="card__face card__face--back"
+                style="font-size: 1.2rem"
+              >
+                <h3>Cuaderno</h3>
+                <label for="cantidad">Escoja una cantidad:</label>
+                <input
+                  type="number"
+                  id="estacionamiento"
+                  name="estacionamiento"
+                  placeholder="Ej: 3"
+                  min="1"
+                  max="999"
+                />
+
+                <button>Pedir</button>
+              </div>
+            </div>
+            <div class="product">
+              <div class="card__face card__face--front">
+                <img src="./build/img/lapicero.webp" alt="" />
+                <h3>Lapicero</h3>
+              </div>
+              <div class="card__face card__face--back">
+                <h3>Lapicero</h3>
+
+                <label for="cantidad">Escoja una cantidad:</label>
+                <input
+                  type="number"
+                  id="estacionamiento"
+                  name="estacionamiento"
+                  placeholder="Ej: 3"
+                  min="1"
+                  max="999"
+                />
+
+                <button>Pedir</button>
+              </div>
+            </div>
+            <div class="product">
+              <div class="card__face card__face--front">
+                <img src="./build/img/lapiz.webp" alt="" />
+                <h3>Lapiz</h3>
+              </div>
+              <div class="card__face card__face--back">
+                <h3>Lapiz</h3>
+                <label for="cantidad">Escoja una cantidad:</label>
+                <input
+                  type="number"
+                  id="estacionamiento"
+                  name="estacionamiento"
+                  placeholder="Ej: 3"
+                  min="1"
+                  max="999"
+                />
+
+                <button>Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="contenedor-cards oculto hidden animated fadeIn">
+            <div class="product">
+              <div class="card__face card__face--front">
+                <img src="./build/img/borrador.webp" alt="" />
+                <h3>Borrador</h3>
+              </div>
+              <div class="card__face card__face--back">
+                <h3>Borrador</h3>
+                <label for="cantidad">Escoja una cantidad:</label>
+                <input
+                  type="number"
+                  id="estacionamiento"
+                  name="estacionamiento"
+                  placeholder="Ej: 3"
+                  min="1"
+                  max="999"
+                />
+
+                <button>Pedir</button>
+              </div>
+            </div>
+            <div class="product">
+              <div class="card__face card__face--front">
+                <img src="./build/img/tajador.webp" alt="" />
+                <h3>Tajador</h3>
+              </div>
+              <div class="card__face card__face--back">
+                <h3>Tajador</h3>
+                <label for="cantidad">Escoja una cantidad:</label>
+                <input
+                  type="number"
+                  id="estacionamiento"
+                  name="estacionamiento"
+                  placeholder="Ej: 3"
+                  min="1"
+                  max="999"
+                />
+
+                <button>Pedir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a id="botonOn" onclick="mostrarProductos()">Ver mas</a>
+      </div>
+    </section>
+    <script src="./build/js/bundle.min.js "></script>
+  </body>
+</html>

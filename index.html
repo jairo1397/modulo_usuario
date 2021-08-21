@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Libreria</title>
+    <script
+      src="https://kit.fontawesome.com/9a357e20ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="header">
+        <div class="logo">
+          <a href="#">Libreria</a>
+        </div>
+        <div class="menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#datos">Productos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </nav>
+    <section class="inicio" id="inicio">
+      <h1 class="titulo-oculto">Libreria</h1>
+      <div class="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>
+          Librería Sur tiene un propósito, que se mantiene inalterable desde que
+          entró en funciones en agosto de 2012: ser un espacio de encuentro e
+          intercambio cultural con los lectores. Además, somos herederos de la
+          tradición librera de Eduardo Sanseviero, que nos enseñó no solo el
+          amor por este oficio, sino también a respetarlo mediante la
+          personalidad del librero.
+        </p>
+      </div>
+      <a href="#productos">Ver productos</a>
+    </section>
+    <section class="datos" id="datos">
+      <div class="contenedor-datos">
+        <h2>Ingrese sus datos</h2>
+        <form action="pedir.html" method="GET">
+          <fieldset>
+            <label for="Nombre">Nombre:</label>
+            <input name="nombre" id="nombre" type="text" />
+          </fieldset>
+          <fieldset>
+            <label for="DNI">DNI:</label>
+            <input name="dni" id="dni" type="text" />
+          </fieldset>
+
+          <input type="submit" value="Ver productos" class="boton" />
+        </form>
+      </div>
+    </section>
+
+    <script src="./build/js/bundle.min.js "></script>
+  </body>
+</html>
